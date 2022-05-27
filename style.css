@@ -154,7 +154,7 @@
             
             .started-for-free {
                 z-index: 1;
-                bottom: -30px;
+                bottom: -50px;
                 width: 50%;
                 margin: 0 auto;
                 height: 200px;
@@ -180,24 +180,23 @@
             /*FOOTER*/
             
             footer {
+                display: flex;
                 background-color: var(--VeryDarkCyan);
-                padding: 1em 11em;
+                padding: 1em 15em;
             }
             
-            .footer-logo {
-                margin: 0em 1em;
-                height: 35px;
-                width: 150px;
+            .footerlogo {
+                margin-top: 3em;
             }
             
-            .footer-logo img {
-                width: 100%;
-                object-fit: contain;
+            .footerlogo img {
+                width: 80px;
+                height: 80px;
             }
             
             .contact {
                 padding-left: 4em;
-                padding-top: 2em;
+                padding-top: 1em;
             }
             
             .location,
@@ -218,6 +217,22 @@
             }
             
             .icon {
-                width: 11px;
+                width: 14px;
                 height: 16px;
             }
+            
+            .footer-first,
+            .footer-second {
+                color: white;
+                line-height: 3em;
+                padding-left: 4em;
+                padding-top: 11em;
+                font-family: 400;
+                font-family: 'Open Sans', sans-serif;
+                font-size: .80rem;
+                margin-right: 1em;
+                margin-left: 3em;
+                list-style: none;
+            }
+            
+            .social-icon {}
