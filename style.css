@@ -183,6 +183,7 @@
                 display: flex;
                 background-color: var(--VeryDarkCyan);
                 padding: 1em 15em;
+                justify-content: center;
             }
             
             .footerlogo {
@@ -235,4 +236,27 @@
                 list-style: none;
             }
             
-            .social-icon {}
+            .social-icon {
+                display: flex;
+                margin-left: 2em;
+                height: 4em;
+            }
+            
+            .social-icon img {
+                width: 30px;
+                height: 30px;
+                margin-right: 2em;
+                margin-top: 9em;
+            }
+            
+            .attribution {
+                margin-top: 20em;
+                color: white;
+                font-family: 'Open Sans', sans-serif;
+                font-size: .80rem;
+            }
+            
+            .attribution a {
+                color: white;
+                text-decoration: none;
+            }
