@@ -1,118 +1,137 @@
-            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
-            * {
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-            }
-            
-            body {
-                font-family: 'Open Sans', sans-serif;
-                font-family: 'Poppins', sans-serif;
-                font-size: 18px;
-            }
-            
-            img {
-                display: inline;
-            }
-            
-            h1,
-            h2,
-            h3 {
-                color: hsl(192, 100%, 9%);
-                font-family: 'Poppins', sans-serif;
-                font-weight: bold;
-            }
-            
-            .container {
-                width: 100%;
-                padding: 2em 1em;
-                min-width: 30%;
-                display: flex;
-                flex-direction: column;
-            }
-            
-            header {
-                background-image: url(./images/bg-hero-mobile.svg);
-                background-repeat: no-repeat;
-                background-color: #F5FDFF;
-            }
-            
-            .top-head {
-                display: flex;
-                justify-content: space-between;
-            }
-            
-            .logo {
-                max-width: 150px;
-            }
-            
-            .try-it-free-btn {
-                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                border: none;
-                background-color: white;
-                color: white;
-                min-width: 9em;
-                border-radius: 15px;
-            }
-            
-            .try-it-free-btn a {
-                color: hsl(192, 100%, 9%);
-                text-decoration: none;
-            }
-            
-            .content {
-                text-align: center;
-                padding: 3em 3em;
-            }
-            
-            .title-content {
-                font-size: max(1.5rem, 50%);
-                margin-bottom: 1em;
-            }
-            
-            .p-content {
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 400;
-                font-size: max(1rem, 50%);
-                padding: 0 1em;
-                margin-bottom: 2em;
-            }
-            
-            .contant-btn {
-                font-family: 'Poppins', sans-serif;
-                padding: .5em 3em;
-                font-size: max(1rem, 50%);
-                border: none;
-                min-width: 15em;
-                border-radius: 20px;
-                background-color: hsl(322, 100%, 66%);
-                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            }
-            
-            .contant-btn a {
-                color: white;
-                text-decoration: none;
-            }
-            
-            .img-content img {
-                width: 100%;
-            }
-            
-            @media (min-width:960px) {
-                .container {
-                    max-width: 70%;
-                    margin: 0 auto;
-                }
-                .hero {
-                    margin-top: 3em;
-                    display: flex;
-                }
-                .content {
-                    width: 50%;
-                }
-                .img-content {
-                    margin-top: 2em;
-                    width: 50%;
-                }
-            }
+                                    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+                                    * {
+                                        padding: 0;
+                                        margin: 0;
+                                        box-sizing: border-box;
+                                    }
+                                    
+                                    body {
+                                        font-family: 'Open Sans', sans-serif;
+                                        font-family: 'Poppins', sans-serif;
+                                        font-size: 18px;
+                                    }
+                                    
+                                    img {
+                                        display: inline;
+                                    }
+                                    
+                                    h1,
+                                    h2,
+                                    h3 {
+                                        color: hsl(192, 100%, 9%);
+                                        font-family: 'Poppins', sans-serif;
+                                        font-weight: bold;
+                                    }
+                                    
+                                    .container,
+                                    main {
+                                        width: 100%;
+                                        padding: 2em 1em;
+                                        min-width: 30%;
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                    
+                                    header {
+                                        background-image: url(./images/bg-hero-mobile.svg);
+                                        background-repeat: no-repeat;
+                                        background-color: #F5FDFF;
+                                    }
+                                    
+                                    .top-head {
+                                        display: flex;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .logo {
+                                        max-width: 150px;
+                                    }
+                                    
+                                    .try-it-free-btn {
+                                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                                        border: none;
+                                        background-color: white;
+                                        color: white;
+                                        min-width: 9em;
+                                        border-radius: 15px;
+                                    }
+                                    
+                                    .try-it-free-btn a {
+                                        color: hsl(192, 100%, 9%);
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .content {
+                                        text-align: center;
+                                        padding: 3em 3em;
+                                    }
+                                    
+                                    .title-content {
+                                        font-size: max(1.5rem, 50%);
+                                        margin-bottom: 1em;
+                                    }
+                                    
+                                    .p-content {
+                                        font-family: 'Open Sans', sans-serif;
+                                        font-weight: 400;
+                                        font-size: max(1rem, 50%);
+                                        padding: 0 1em;
+                                        margin-bottom: 2em;
+                                    }
+                                    
+                                    .contant-btn {
+                                        font-family: 'Poppins', sans-serif;
+                                        padding: .5em 3em;
+                                        font-size: max(1rem, 50%);
+                                        border: none;
+                                        min-width: 15em;
+                                        border-radius: 20px;
+                                        background-color: hsl(322, 100%, 66%);
+                                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                                    }
+                                    
+                                    .contant-btn a {
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .img-card-content img {
+                                        width: 100%;
+                                        object-fit: contain;
+                                    }
+                                    
+                                    .img-content img {
+                                        width: 100%;
+                                    }
+                                    
+                                    .card-content {
+                                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                                        width: 100%;
+                                    }
+                                    
+                                    .text-content,
+                                    .img-card-content {
+                                        width: 50%;
+                                    }
+                                    
+                                    @media (min-width: 960px) {
+                                        .container,
+                                        main {
+                                            max-width: 70%;
+                                            margin: 0 auto;
+                                        }
+                                        .hero {
+                                            margin-top: 3em;
+                                            display: flex;
+                                        }
+                                        .content {
+                                            width: 50%;
+                                        }
+                                        .img-content {
+                                            margin-top: 2em;
+                                            width: 50%;
+                                        }
+                                        .card-content {
+                                            display: flex;
+                                        }
+                                    }
