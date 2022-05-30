@@ -52,13 +52,19 @@
                                         border: none;
                                         background-color: white;
                                         color: white;
-                                        min-width: 9em;
+                                        min-width: 10em;
                                         border-radius: 15px;
                                     }
                                     
                                     .try-it-free-btn a {
                                         color: hsl(192, 100%, 9%);
                                         text-decoration: none;
+                                        font-family: 'Poppins', sans-serif;
+                                    }
+                                    
+                                    .try-it-free-btn a:hover,
+                                    .try-it-free-btn a a:focus {
+                                        color: rgba(0, 37, 46, 0.697);
                                     }
                                     
                                     .content {
@@ -93,6 +99,12 @@
                                     .contant-btn a {
                                         color: white;
                                         text-decoration: none;
+                                        font-weight: bold;
+                                    }
+                                    
+                                    .contant-btn:hover,
+                                    .contant-btn:focus {
+                                        background-color: hsla(322, 100%, 77%, 0.538);
                                     }
                                     
                                     .img-card-content img {
