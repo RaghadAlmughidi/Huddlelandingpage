@@ -226,7 +226,6 @@
                                                         .social-icon {
                                                             display: flex;
                                                             width: 15px;
-                                                            gap: 20px;
                                                             margin: 0 auto;
                                                             padding-bottom: 1em;
                                                         }
